@@ -1,5 +1,12 @@
 # GPT4IndustrialAutomation
+This repository contains the demos of the paper "Towards an Autonomous System: Flexible Modular Production System Enhanced with Large Language Model Agents."
 
+The paper has undergone peer review and will be published in IEEE-ETFA2023 (The 28th Annual Conference of the IEEE Industrial Electronics Society (IES) - The International Conference on Emerging Technologies and Factory Automation) Track - Artificial Intelligence for Cyber-Physical Systems in Automation.
+
+The original pre-print version with the raw manuscript has been released at https://www.researchgate.net/publication/370417635_Towards_autonomous_system_flexible_modular_production_system_enhanced_with_large_language_model_agents 
+for public discussion.
+
+The peer-reviewed version will be published by IEEE after the conference in September. We have incorporated improvements in the final version of the paper based on the valuable critiques and suggestions provided by other researchers.
 
 # Demo Videos:
 
