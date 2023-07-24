@@ -19,6 +19,9 @@ You can find the original **pre-print draft** of the manuscript at this link: [R
 We are continuing our research in these topics, and we plan to provide more insightful results in the future. If the paper inspires you or you find the ideas presented interesting, please consider citing our work. We will be very glad to receive your acknowledgment with a citation, as a considerable amount of effort has gone into developing and delivering these ideas in a clear and understandable way.
 
 You can find this paper at:
-(Pre-Print Draft)[ResearchGate](https://www.researchgate.net/publication/370417635_Towards_autonomous_system_flexible_modular_production_system_enhanced_with_large_language_model_agents)
-(Pre-Print Draft)[Arkiv](https://arxiv.org/abs/2304.14721)
+
+(Pre-Print Draft) [ResearchGate: https://www.researchgate.net/publication/370417635_Towards_autonomous_system_flexible_modular_production_system_enhanced_with_large_language_model_agents](https://www.researchgate.net/publication/370417635_Towards_autonomous_system_flexible_modular_production_system_enhanced_with_large_language_model_agents)
+
+(Pre-Print Draft)[Arkiv: https://arxiv.org/abs/2304.14721](https://arxiv.org/abs/2304.14721)
+
 (Final peer-reviewed Version)**IEEE** coming soon after September...
