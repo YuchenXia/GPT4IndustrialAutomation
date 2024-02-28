@@ -2,8 +2,9 @@
 
 This repository contains the demos of the paper "**Towards an Autonomous System: A Flexible Modular Production System Enhanced with Large Language Model Agents.**"
 
-> :calendar: The peer-reviewed version of this paper has been published by IEEE after the conference **IEEE-ETFA2023** (The 28th Annual Conference of the IEEE Industrial Electronics Society (IES) - The International Conference on Emerging Technologies and Factory Automation) (in Track - Artificial Intelligence for Cyber-Physical Systems in Automation), which took place on September 12th to 15th, 2023.
-
+> :mortar_board::page_facing_up: The peer-reviewed version of this paper has been published by IEEE after the conference **IEEE-ETFA2023** (The 28th Annual Conference of the IEEE Industrial Electronics Society (IES) - The International Conference on Emerging Technologies and Factory Automation) (in Track - Artificial Intelligence for Cyber-Physical Systems in Automation), which took place on September 12th to 15th, 2023. Paper: Towards autonomous system: flexible modular production system enhanced with large language model agents (https://ieeexplore.ieee.org/document/10275362)
+>
+> 
 # :movie_camera: Demo Videos:
 
 ![30s_GPT4Automation](https://github.com/YuchenXia/GPT4IndustrialAutomation/assets/39265101/b4b700fa-5262-44a3-9fdd-6eb4930dae23)
