@@ -13,7 +13,11 @@ This repository contains the demos of the paper "**Towards an Autonomous System:
 ![30s_Prompt](https://github.com/YuchenXia/GPT4IndustrialAutomation/assets/39265101/3bf1c466-de0c-4fe2-8e47-19b8765997b8)
 
 
+# The system overview:
+![system_overview](system_overview.png)
 
+# The big picture:
+![system_automation_pyramide](images/system_automation_pyramide.png)
 
 
 
