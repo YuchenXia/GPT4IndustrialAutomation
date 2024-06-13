@@ -17,7 +17,7 @@ This repository contains the demos of the paper "**Towards an Autonomous System:
 ![system_overview](system_overview.png)
 
 # The big picture:
-![system_automation_pyramide](images/system_automation_pyramide.png)
+![system_automation_pyramide](system_automation_pyramide.png)
 
 
 
