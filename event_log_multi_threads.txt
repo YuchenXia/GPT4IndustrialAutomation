@@ -1,0 +1,308 @@
+[Island I] [22:04:24] BG56 detects a workpiece at the infeed of conveyor C1.
+[Island I] [22:04:25] Island I calls function: C1_run('forward', 13)
+[Island I] [22:04:25] A workpiece passes BG56.
+[Island I] [22:04:28] TF81 reads information from the workpiece. The RFID tag on the workpiece is authorized.
+[Robotino] [22:04:29] PG74 receieves request from Island I to transport workpieces.
+[Island I] [22:04:29] Island I calls function: branch_divert(), robot_request('Island I', 'in')
+[Robotino] [22:04:30] Robotino calls function: navigate_to('Island I', 'in')
+[Island I] [22:04:30] Branch is already set to divert the workpieces.
+[Island I] [22:04:30] BG51 detects a workpiece at stopper S2 on conveyor C1.
+[Island I] [22:04:31] Island I calls function: S2_release(), C1_run('forward', 8)
+[Island I] [22:04:31] stopper S2 is realeased.
+[Island I] [22:04:32] A workpiece passes BG51.
+[Island I] [22:04:33] stopper S2 is raised.
+[Island I] [22:04:33] BG26 detects a workpiece at the infeed of the conveyor C2.
+[Island I] [22:04:35] Island I calls function: C2_run('forward', 13)
+[Island I] [22:04:35] A workpiece passes BG26.
+[Island I] [22:04:35] BG21 detects a workpiece at stopper S1 on conveyor C2.
+[Island I] [22:04:36] Island I calls function: S1_release(), C4_run('forward', 8)
+[Robotino] [22:04:42] Robotino has docked with Island I.
+[Robotino] [22:04:43] Robotino calls function: load_workpiece()
+[Island I] [22:04:36] stopper S1 is realeased.
+[Island I] [22:04:37] A workpiece passes BG21.
+[Island I] [22:04:38] stopper S1 is raised.
+[Island I] [22:04:41] BG42 detects a workpiece at the infeed of conveyor C4.
+[Island I] [22:04:43] Robotino has docked with Island I.
+[Island I] [22:04:45] Island I calls function: no_action()
+[Robotino] [22:04:45] PG71 confirms the workpiece is securely loaded.
+[Robotino] [22:04:46] Robotino calls function: read_info()
+[Robotino] [22:04:46] The next destination is retrieved: Island II.
+[Robotino] [22:04:46] Robotino calls function: navigate_to('Island II', 'out')
+[Robotino] [22:04:58] Robotino has docked with Island II.
+
+[Island II] [22:04:58] Robotino has docked with Island II.
+[Island II] [22:04:59] Island II calls function: C3_run('forward', 8), branch_divert()
+[Robotino] [22:04:59] Robotino calls function: unload_workpiece()
+[Robotino] [22:05:01] The workpiece is unloaded.
+[Island II] [22:05:01] Robotino unloads the workpiece.
+[Island II] [22:05:01] BG41 detects a workpiece at stopper S3.
+[Island II] [22:05:02] Branch is already set to divert the workpieces.
+[Robotino] [22:05:02] Robotino calls function: navigate_to('base', None)
+[Island II] [22:05:03] Island II calls function: S3_release(), C2_run('forward', 8)
+[Island II] [22:05:03] stopper S3 is realeased.
+[Island II] [22:05:05] A workpiece passes BG41.
+[Island II] [22:05:06] stopper S3 is raised.
+[Island II] [22:05:06] BG27 detects a workpiece at the outlet of the conveyor C2.
+[Island II] [22:05:07] Island II calls function: C2_run('forward', 2)
+[Island II] [22:05:07] BG56 detects a workpiece at the infeed of conveyor C1.
+[Island II] [22:05:07] Island II calls function: C1_run('forward', 13)
+[Island II] [22:05:07] A workpiece passes BG56.
+[Island II] [22:05:10] TF81 reads information from the workpiece. Information for processing is retrieved: [{'material': 'Aluminum'}, {'processing': 'Milling'}, {'spindle_rpm': 1200}, {'cutting_depth': 1.0}, {'cutting_length': 12}]
+[Island II] [22:05:12] BG51 detects a workpiece at stopper S2 on conveyor C1, indicating that the workpiece arrives at the CNC station.
+[Island II] [22:05:14] Island II calls function: load_workpiece()
+[Robotino] [22:05:14] Robotino has docked with base.
+[Robotino] [22:05:15] Robotino calls function: no_action()
+[Island II] [22:05:16] The workpiece is loaded into CNC machine.
+[Island II] [22:05:17] Island II calls function: choose_tool('mill')
+[Island II] [22:05:19] PG51 detects the tool at initial position.
+[Island II] [22:05:20] Island II calls function: start_spindle(1200), apply_coolant('pulsed')
+[Island II] [22:05:22] The spindle starts to rotate.
+[Island II] [22:05:22] The coolant is applied.
+[Island II] [22:05:24] PG52 detects the correct placement of the workpiece.
+[Island II] [22:05:25] Island II calls function: start_cutting(1.0, 12)
+[Island II] [22:05:35] CNC processing is finished.
+[Island II] [22:05:36] Island II calls function: stop_series()
+[Island II] [22:05:39] The machine is stopped.
+[Island II] [22:05:40] Island II calls function: unload_workpiece()
+[Island II] [22:05:43] The workpiece is unloaded out of CNC machine.
+[Robotino] [22:05:44] PG74 receieves request from Island II to transport workpieces.
+[Island II] [22:05:44] Island II calls function: S2_release(), C1_run('forward', 8), robot_request('Island II', 'in')
+[Robotino] [22:05:45] Robotino calls function: navigate_to('Island II', 'in')
+[Island II] [22:05:44] stopper S2 is realeased.
+[Island II] [22:05:45] A workpiece passes BG51.
+[Island II] [22:05:46] stopper S2 is raised.
+[Island II] [22:05:47] BG26 detects a workpiece at the infeed of conveyor C2.
+[Island II] [22:05:48] Island II calls function: C2_run('forward', 13)
+[Island II] [22:05:48] A workpiece passes BG26.
+[Island II] [22:05:48] BG21 detects a workpiece at stopper S1 on conveyor C2.
+[Island II] [22:05:49] Island II calls function: S1_release(), C4_run('forward', 8)
+[Island II] [22:05:49] stopper S1 is realeased.
+[Island II] [22:05:50] A workpiece passes BG21.
+[Island II] [22:05:51] stopper S1 is raised.
+[Island II] [22:05:54] BG42 detects a workpiece at the infeed of conveyor C4.
+[Island II] [22:05:56] Robotino has docked with Island II.
+[Robotino] [22:05:57] Robotino has docked with Island II.
+[Island II] [22:05:57] Island II calls function: no_action()
+[Robotino] [22:05:58] Robotino calls function: load_workpiece()
+[Robotino] [22:06:00] PG71 confirms the workpiece is securely loaded.
+[Robotino] [22:06:00] Robotino calls function: read_info()
+[Robotino] [22:06:00] The next destination is retrieved: Island III.
+[Robotino] [22:06:01] Robotino calls function: navigate_to('Island III', 'out')
+[Robotino] [22:06:13] Robotino has docked with Island III.
+[Island III] [22:06:13] Robotino has docked with Island III.
+[Island III] [22:06:14] Island III calls function: C3_run('forward', 8)
+[Robotino] [22:06:14] Robotino calls function: unload_workpiece()
+[Island III] [22:06:16] Robotino unloads the workpiece.
+[Island III] [22:06:16] BG41 detects a workpiece at stopper S3.
+[Robotino] [22:06:16] The workpiece is unloaded.
+[Robotino] [22:06:17] Robotino calls function: navigate_to('base', None)
+[Island III] [22:06:17] Island III calls function: S3_release(), C2_run('forward', 8)
+[Island III] [22:06:17] stopper S3 is realeased.
+[Island III] [22:06:18] A workpiece passes BG41.
+[Island III] [22:06:19] stopper S3 is raised.
+[Island III] [22:06:19] BG27 detects a workpiece at the outlet of the conveyor C2.
+[Island III] [22:06:20] Island III calls function: C2_run('forward', 2)
+[Island III] [22:06:20] BG56 detects a workpiece at the infeed of conveyor C1.
+[Island III] [22:06:21] Island III calls function: C1_run('forward',13)
+[Island III] [22:06:21] A workpiece passes BG56.
+[Island III] [22:06:24] TF81 reads information from the workpiece. Information for processing is retrieved: [{'color': 'Red'}, {'mode': 'triangle'}]
+[Island III] [22:06:26] BG51 detects a workpiece at stopper S2 on conveyor C1, indicating that the workpiece arrives at the painting station.
+[Island III] [22:06:27] Island III calls function: load_workpiece()
+[Robotino] [22:06:29] Robotino has docked with base.
+[Island III] [22:06:29] PG60 detects a workpiece in position.
+[Robotino] [22:06:30] Robotino calls function: no_action()
+[Island III] [22:06:30] Island III calls function: start_painting('Red', 'triangle')
+[Island III] [22:06:30] The workpiece is painted with a Red triangle.
+[Island III] [22:06:40] The painting process is complete.
+[Island III] [22:06:41] Island III calls function: dry_workpiece()
+[Island III] [22:06:51] The drying process is complete.
+[Island III] [22:06:52] Island III calls function: unload_workpiece()
+[Island III] [22:06:54] The workpiece is unloaded out of the painting station.
+[Robotino] [22:06:55] PG74 receieves request from Island III to transport workpieces.
+[Island III] [22:06:55] Island III calls function: S2_release(), C1_run('forward', 8), robot_request('Island III', 'in')
+[Robotino] [22:06:56] Robotino calls function: navigate_to('Island III', 'in')
+[Island III] [22:06:55] stopper S2 is realeased.
+[Island III] [22:06:56] A workpiece passes BG51.
+[Island III] [22:06:57] stopper S2 is raised.
+[Island III] [22:06:58] BG26 detects a workpiece at the infeed of conveyor C2.
+[Island III] [22:06:59] Island III calls function: C2_run('forward',13)
+[Island III] [22:06:59] A workpiece passes BG26.
+[Island III] [22:06:59] BG21 detects a workpiece at stopper S1 on conveyor C2.
+[Island III] [22:07:00] Island III calls function: S1_release(), C4_run('forward', 8)
+[Island III] [22:07:00] stopper S1 is realeased.
+[Island III] [22:07:01] A workpiece passes BG21.
+[Island III] [22:07:02] stopper S1 is raised.
+[Island III] [22:07:05] BG42 detects a workpiece at the infeed of conveyor C4.
+[Island III] [22:07:07] Robotino has docked with Island III.
+[Robotino] [22:07:08] Robotino has docked with Island III.
+[Island III] [22:07:08] Island III calls function: no_action()
+[Robotino] [22:07:09] Robotino calls function: load_workpiece()
+[Robotino] [22:07:11] PG71 confirms the workpiece is securely loaded.
+[Robotino] [22:07:12] Robotino calls function: read_info()
+[Robotino] [22:07:12] The next destination is retrieved: Dispatching Zone.
+[Robotino] [22:07:12] Robotino calls function: navigate_to('Dispatching Zone', 'out')
+[Robotino] [22:07:24] Robotino has docked with Dispatching Zone.
+[Robotino] [22:07:26] Robotino calls function: unload_workpiece()
+[Robotino] [22:07:28] The workpiece is unloaded.
+[Robotino] [22:07:29] Robotino calls function: navigate_to('base', None)
+[Robotino] [22:07:41] Robotino has docked with base.
+[Robotino] [22:07:42] Robotino calls function: no_action()
+
+
+
+------------------------------------------------------
+
+[Robotino] [22:04:29] PG74 receieves request from Island I to transport workpieces.
+[Robotino] [22:04:30] Robotino calls function: navigate_to('Island I', 'in')
+[Robotino] [22:04:42] Robotino has docked with Island I.
+[Robotino] [22:04:43] Robotino calls function: load_workpiece()
+[Robotino] [22:04:45] PG71 confirms the workpiece is securely loaded.
+[Robotino] [22:04:46] Robotino calls function: read_info()
+[Robotino] [22:04:46] The next destination is retrieved: Island II.
+[Robotino] [22:04:46] Robotino calls function: navigate_to('Island II', 'out')
+[Robotino] [22:04:58] Robotino has docked with Island II.
+[Robotino] [22:04:59] Robotino calls function: unload_workpiece()
+[Robotino] [22:05:01] The workpiece is unloaded.
+[Robotino] [22:05:02] Robotino calls function: navigate_to('base', None)
+[Robotino] [22:05:14] Robotino has docked with base.
+[Robotino] [22:05:15] Robotino calls function: no_action()
+[Robotino] [22:05:44] PG74 receieves request from Island II to transport workpieces.
+[Robotino] [22:05:45] Robotino calls function: navigate_to('Island II', 'in')
+[Robotino] [22:05:57] Robotino has docked with Island II.
+[Robotino] [22:05:58] Robotino calls function: load_workpiece()
+[Robotino] [22:06:00] PG71 confirms the workpiece is securely loaded.
+[Robotino] [22:06:00] Robotino calls function: read_info()
+[Robotino] [22:06:00] The next destination is retrieved: Island III.
+[Robotino] [22:06:01] Robotino calls function: navigate_to('Island III', 'out')
+[Robotino] [22:06:13] Robotino has docked with Island III.
+[Robotino] [22:06:14] Robotino calls function: unload_workpiece()
+[Robotino] [22:06:16] The workpiece is unloaded.
+[Robotino] [22:06:17] Robotino calls function: navigate_to('base', None)
+[Robotino] [22:06:29] Robotino has docked with base.
+[Robotino] [22:06:30] Robotino calls function: no_action()
+[Robotino] [22:06:55] PG74 receieves request from Island III to transport workpieces.
+[Robotino] [22:06:56] Robotino calls function: navigate_to('Island III', 'in')
+[Robotino] [22:07:08] Robotino has docked with Island III.
+[Robotino] [22:07:09] Robotino calls function: load_workpiece()
+[Robotino] [22:07:11] PG71 confirms the workpiece is securely loaded.
+[Robotino] [22:07:12] Robotino calls function: read_info()
+[Robotino] [22:07:12] The next destination is retrieved: Dispatching Zone.
+[Robotino] [22:07:12] Robotino calls function: navigate_to('Dispatching Zone', 'out')
+[Robotino] [22:07:24] Robotino has docked with Dispatching Zone.
+[Robotino] [22:07:26] Robotino calls function: unload_workpiece()
+[Robotino] [22:07:28] The workpiece is unloaded.
+[Robotino] [22:07:29] Robotino calls function: navigate_to('base', None)
+[Robotino] [22:07:41] Robotino has docked with base.
+
+
+----
+[Island III] [22:06:13] Robotino has docked with Island III.
+[Island III] [22:06:14] Island III calls function: C3_run('forward', 8)
+[Island III] [22:06:16] Robotino unloads the workpiece.
+[Island III] [22:06:16] BG41 detects a workpiece at stopper S3.
+[Island III] [22:06:17] Island III calls function: S3_release(), C2_run('forward', 8)
+[Island III] [22:06:17] stopper S3 is realeased.
+[Island III] [22:06:18] A workpiece passes BG41.
+[Island III] [22:06:19] stopper S3 is raised.
+[Island III] [22:06:19] BG27 detects a workpiece at the outlet of the conveyor C2.
+[Island III] [22:06:20] Island III calls function: C2_run('forward', 2)
+[Island III] [22:06:20] BG56 detects a workpiece at the infeed of conveyor C1.
+[Island III] [22:06:21] Island III calls function: C1_run('forward',13)
+[Island III] [22:06:21] A workpiece passes BG56.
+[Island III] [22:06:24] TF81 reads information from the workpiece. Information for processing is retrieved: [{'color': 'Red'}, {'mode': 'triangle'}]
+[Island III] [22:06:26] BG51 detects a workpiece at stopper S2 on conveyor C1, indicating that the workpiece arrives at the painting station.
+[Island III] [22:06:27] Island III calls function: load_workpiece()
+[Island III] [22:06:29] PG60 detects a workpiece in position.
+[Island III] [22:06:30] Island III calls function: start_painting('Red', 'triangle')
+[Island III] [22:06:30] The workpiece is painted with a Red triangle.
+[Island III] [22:06:40] The painting process is complete.
+[Island III] [22:06:41] Island III calls function: dry_workpiece()
+[Island III] [22:06:51] The drying process is complete.
+[Island III] [22:06:52] Island III calls function: unload_workpiece()
+[Island III] [22:06:54] The workpiece is unloaded out of the painting station.
+[Island III] [22:06:55] Island III calls function: S2_release(), C1_run('forward', 8), robot_request('Island III', 'in')
+[Island III] [22:06:55] stopper S2 is realeased.
+[Island III] [22:06:56] A workpiece passes BG51.
+[Island III] [22:06:57] stopper S2 is raised.
+[Island III] [22:06:58] BG26 detects a workpiece at the infeed of conveyor C2.
+[Island III] [22:06:59] Island III calls function: C2_run('forward',13)
+[Island III] [22:06:59] A workpiece passes BG26.
+[Island III] [22:06:59] BG21 detects a workpiece at stopper S1 on conveyor C2.
+[Island III] [22:07:00] Island III calls function: S1_release(), C4_run('forward', 8)
+[Island III] [22:07:00] stopper S1 is realeased.
+[Island III] [22:07:01] A workpiece passes BG21.
+[Island III] [22:07:02] stopper S1 is raised.
+[Island III] [22:07:05] BG42 detects a workpiece at the infeed of conveyor C4.
+[Island III] [22:07:07] Robotino has docked with Island III.
+
+
+---
+[Island II] [22:04:58] Robotino has docked with Island II.
+[Island II] [22:04:59] Island II calls function: C3_run('forward', 8), branch_divert()
+[Island II] [22:05:01] Robotino unloads the workpiece.
+[Island II] [22:05:01] BG41 detects a workpiece at stopper S3.
+[Island II] [22:05:02] Branch is already set to divert the workpieces.
+[Island II] [22:05:03] Island II calls function: S3_release(), C2_run('forward', 8)
+[Island II] [22:05:03] stopper S3 is realeased.
+[Island II] [22:05:05] A workpiece passes BG41.
+[Island II] [22:05:06] stopper S3 is raised.
+[Island II] [22:05:06] BG27 detects a workpiece at the outlet of the conveyor C2.
+[Island II] [22:05:07] Island II calls function: C2_run('forward', 2)
+[Island II] [22:05:07] BG56 detects a workpiece at the infeed of conveyor C1.
+[Island II] [22:05:07] Island II calls function: C1_run('forward', 13)
+[Island II] [22:05:07] A workpiece passes BG56.
+[Island II] [22:05:10] TF81 reads information from the workpiece. Information for processing is retrieved: [{'material': 'Aluminum'}, {'processing': 'Milling'}, {'spindle_rpm': 1200}, {'cutting_depth': 1.0}, {'cutting_length': 12}]
+[Island II] [22:05:12] BG51 detects a workpiece at stopper S2 on conveyor C1, indicating that the workpiece arrives at the CNC station.
+[Island II] [22:05:14] Island II calls function: load_workpiece()
+[Island II] [22:05:16] The workpiece is loaded into CNC machine.
+[Island II] [22:05:17] Island II calls function: choose_tool('mill')
+[Island II] [22:05:19] PG51 detects the tool at initial position.
+[Island II] [22:05:20] Island II calls function: start_spindle(1200), apply_coolant('pulsed')
+[Island II] [22:05:22] The spindle starts to rotate.
+[Island II] [22:05:22] The coolant is applied.
+[Island II] [22:05:24] PG52 detects the correct placement of the workpiece.
+[Island II] [22:05:25] Island II calls function: start_cutting(1.0, 12)
+[Island II] [22:05:35] CNC processing is finished.
+[Island II] [22:05:36] Island II calls function: stop_series()
+[Island II] [22:05:39] The machine is stopped.
+[Island II] [22:05:40] Island II calls function: unload_workpiece()
+[Island II] [22:05:43] The workpiece is unloaded out of CNC machine.
+[Island II] [22:05:44] Island II calls function: S2_release(), C1_run('forward', 8), robot_request('Island II', 'in')
+[Island II] [22:05:44] stopper S2 is realeased.
+[Island II] [22:05:45] A workpiece passes BG51.
+[Island II] [22:05:46] stopper S2 is raised.
+[Island II] [22:05:47] BG26 detects a workpiece at the infeed of conveyor C2.
+[Island II] [22:05:48] Island II calls function: C2_run('forward', 13)
+[Island II] [22:05:48] A workpiece passes BG26.
+[Island II] [22:05:48] BG21 detects a workpiece at stopper S1 on conveyor C2.
+[Island II] [22:05:49] Island II calls function: S1_release(), C4_run('forward', 8)
+[Island II] [22:05:49] stopper S1 is realeased.
+[Island II] [22:05:50] A workpiece passes BG21.
+[Island II] [22:05:51] stopper S1 is raised.
+[Island II] [22:05:54] BG42 detects a workpiece at the infeed of conveyor C4.
+[Island II] [22:05:56] Robotino has docked with Island II.
+
+
+----
+[Island I] [22:04:24] BG56 detects a workpiece at the infeed of conveyor C1.
+[Island I] [22:04:25] Island I calls function: C1_run('forward', 13)
+[Island I] [22:04:25] A workpiece passes BG56.
+[Island I] [22:04:28] TF81 reads information from the workpiece. The RFID tag on the workpiece is authorized.
+[Island I] [22:04:29] Island I calls function: branch_divert(), robot_request('Island I', 'in')
+[Island I] [22:04:30] Branch is already set to divert the workpieces.
+[Island I] [22:04:30] BG51 detects a workpiece at stopper S2 on conveyor C1.
+[Island I] [22:04:31] Island I calls function: S2_release(), C1_run('forward', 8)
+[Island I] [22:04:31] stopper S2 is realeased.
+[Island I] [22:04:32] A workpiece passes BG51.
+[Island I] [22:04:33] stopper S2 is raised.
+[Island I] [22:04:33] BG26 detects a workpiece at the infeed of the conveyor C2.
+[Island I] [22:04:35] Island I calls function: C2_run('forward', 13)
+[Island I] [22:04:35] A workpiece passes BG26.
+[Island I] [22:04:35] BG21 detects a workpiece at stopper S1 on conveyor C2.
+[Island I] [22:04:36] Island I calls function: S1_release(), C4_run('forward', 8)
+[Island I] [22:04:36] stopper S1 is realeased.
+[Island I] [22:04:37] A workpiece passes BG21.
+[Island I] [22:04:38] stopper S1 is raised.
+[Island I] [22:04:41] BG42 detects a workpiece at the infeed of conveyor C4.
+[Island I] [22:04:43] Robotino has docked with Island I.
+[Island I] [22:04:45] Island I calls function: no_action()
