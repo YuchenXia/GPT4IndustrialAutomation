@@ -21,6 +21,10 @@ This repository contains the demos of the paper "**Towards an Autonomous System:
 # :clapper: The Prompting Design:
 ![30s_Prompt](https://github.com/YuchenXia/GPT4IndustrialAutomation/assets/39265101/3bf1c466-de0c-4fe2-8e47-19b8765997b8)
 
+# :clapper: Event-based control via function call:
+![event_based_control](event_based_control.gif)
+
+More details about this event-based control mechanism can be found in Paper: **Incorporating Large Language Models into Production Systems for Enhanced Task Automation and Flexibility** (https://arxiv.org/abs/2407.08550). 
 
 # The system overview:
 ![system_overview](system_overview.png)
