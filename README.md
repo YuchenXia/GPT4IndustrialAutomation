@@ -35,7 +35,7 @@ More details about this event-based control mechanism can be found in Paper: **I
 # Fine-tuned Model based on Llama-3-70B has equal performance with GPT4:
 ![models_evaluation](models_evaluation.png)
 
-in **Incorporating Large Language Models into Production Systems for Enhanced Task Automation and Flexibility** (https://arxiv.org/abs/2407.08550)
+More details about the fine-tuning: **Incorporating Large Language Models into Production Systems for Enhanced Task Automation and Flexibility** (https://arxiv.org/abs/2407.08550)
 
 
 # Paper Citation
