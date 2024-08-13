@@ -39,7 +39,7 @@ More details about the fine-tuning: **Incorporating Large Language Models into P
 
 
 # Paper Citation
-If you find the approach presented interesting and some of the ideas inspiring, please consider citing our work. We will be very glad to receive **your applause with a citation**, which will signal to us that there is true interest and demand.
+If you find the approach presented interesting and some of the ideas inspiring, please consider citing our works. We will be very glad to receive a citation, which will signal to us that there is true interest and demand.
 
 >Y. Xia, M. Shenoy, N. Jazdi and M. Weyrich, "Towards autonomous system: flexible modular production system enhanced with large language model agents," 2023 IEEE 28th International Conference on Emerging Technologies and Factory Automation (ETFA), Sinaia, Romania, 2023, pp. 1-8, doi: 10.1109/ETFA54631.2023.10275362.
 
@@ -65,7 +65,3 @@ If you find the approach presented interesting and some of the ideas inspiring, 
    doi = {10.48550/arXiv.2407.08550}
 }
 ```
-
-
-# Core Beliefs and Values as a Researcher
-I conduct research activities in science and engineering inspired by the principles of **optimistic humanism** and **entrepreneurship**.
