@@ -1,4 +1,10 @@
-# GPT4IndustrialAutomation 
+## Latest Update (2024):
+A recent update to this research is presented here: https://github.com/YuchenXia/LLM4IAS **Control Industrial Automation System with Large Language Models**
+
+:page_facing_up:**The new paper:** 
+> Y. Xia, N. Jazdi, J. Zhang, C. Shah and M. Weyrich, Control Industrial Automation System with Large Language Models, 2024, arXiv preprint. https://doi.org/10.48550/arXiv.2409.18009
+
+# GPT4IndustrialAutomation (2023/07)
 
 This repository contains the demos of the paper "**Towards an Autonomous System: A Flexible Modular Production System Enhanced with Large Language Model Agents.**" and "**Incorporating Large Language Models into Production Systems for Enhanced Task Automation and Flexibility**"
 
