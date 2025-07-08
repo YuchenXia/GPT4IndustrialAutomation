@@ -2,7 +2,7 @@
 A recent update to this research is presented here: https://github.com/YuchenXia/LLM4IAS **Control Industrial Automation System with Large Language Models**
 
 :page_facing_up:**The new paper:** 
-> Y. Xia, N. Jazdi, J. Zhang, C. Shah and M. Weyrich, Control Industrial Automation System with Large Language Models, 2024, arXiv preprint. https://doi.org/10.48550/arXiv.2409.18009
+> [Y. Xia](https://yuchenxia.github.io/), N. Jazdi, J. Zhang, C. Shah and M. Weyrich, Control Industrial Automation System with Large Language Models, 2024, arXiv preprint. https://doi.org/10.48550/arXiv.2409.18009
 
 # GPT4IndustrialAutomation (2023/07)
 
@@ -47,7 +47,7 @@ More details about the fine-tuning: **Incorporating Large Language Models into P
 # Paper Citation
 If you find the approach presented interesting and some of the ideas inspiring, please consider citing our works. We will be very glad to receive a citation, which will signal to us that there is true interest and demand.
 
->Y. Xia, M. Shenoy, N. Jazdi and M. Weyrich, "Towards autonomous system: flexible modular production system enhanced with large language model agents," 2023 IEEE 28th International Conference on Emerging Technologies and Factory Automation (ETFA), Sinaia, Romania, 2023, pp. 1-8, doi: 10.1109/ETFA54631.2023.10275362.
+>[Y. Xia](https://yuchenxia.github.io/), M. Shenoy, N. Jazdi and M. Weyrich, "Towards autonomous system: flexible modular production system enhanced with large language model agents," 2023 IEEE 28th International Conference on Emerging Technologies and Factory Automation (ETFA), Sinaia, Romania, 2023, pp. 1-8, doi: 10.1109/ETFA54631.2023.10275362.
 
 ```bibtex
 @INPROCEEDINGS{10275362,
