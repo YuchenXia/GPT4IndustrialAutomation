@@ -71,3 +71,6 @@ If you find the approach presented interesting and some of the ideas inspiring, 
    doi = {10.48550/arXiv.2407.08550}
 }
 ```
+
+## About the Author
+<a href="https://yuchenxia.github.io/" target="_blank">Yuchen Xia</a> is a PhD candidate specializing in LLM agents, digital twins, and industrial automation since 2021. You can find more about his work, publications and projects on his <a href="https://yuchenxia.github.io/" target="_blank">personal website</a>.
